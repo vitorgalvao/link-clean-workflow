@@ -162,6 +162,8 @@ display_options</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Removes extraneous information from URLs</string>
 				<key>title</key>
