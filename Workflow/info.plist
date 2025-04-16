@@ -6,8 +6,46 @@
 	<string>com.vitorgalvao.alfred.linkclean</string>
 	<key>connections</key>
 	<dict>
+		<key>1FA329F6-6619-47AA-8816-D3859DA5DA49</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C1A77E08-B706-40AD-B8C8-C39100CF0534</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>390C73DF-C34D-45A0-B7C5-C0B74C1F9FBA</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9ADDD7CC-D56C-42E2-9872-29D9B64A0263</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>34C8B5B6-58B6-42FD-A4BF-B2E9B20BC79F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</string>
@@ -23,6 +61,19 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>8EBF5D81-C4B2-42E5-BB74-D90295875326</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8EBF5D81-C4B2-42E5-BB74-D90295875326</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>630129C2-A7B6-480C-B4F4-7088EAEF71B2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -33,6 +84,19 @@
 			</dict>
 		</array>
 		<key>94E56B10-92C1-4A64-8D2F-E2D22A0D2AAC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9ADDD7CC-D56C-42E2-9872-29D9B64A0263</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -58,11 +122,36 @@
 				<false/>
 			</dict>
 		</array>
+		<key>C1A77E08-B706-40AD-B8C8-C39100CF0534</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>0DC1065F-0C90-4D75-A561-27BC5E3ED415</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>18564F22-5EF1-4504-A20F-AC762151C0D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>CB0DF403-7E48-47D5-9141-C774A2C4950C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</string>
+				<string>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -75,7 +164,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</string>
+				<string>1FA329F6-6619-47AA-8816-D3859DA5DA49</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -88,7 +177,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</string>
+				<string>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -108,6 +197,84 @@
 	<string>Link Clean</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>curl --silent --head --location --globoff --output '/dev/null' --write-out '%{url_effective}' "${1}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9ADDD7CC-D56C-42E2-9872-29D9B64A0263</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>const allowedQueries = [
+  "q", // Search engines and internal website searches
+  "k", // Amazon searches
+  "v", // Youtube video IDs
+  "list", // Youtube playlist IDs
+  "index", // Youtube playlist items
+  "language", // Apple documentation
+]
+
+function run(argv) {
+  // Parse URL
+  const url = $.NSURLComponents.componentsWithString(argv[0])
+  const desktopHost = url.host.js.replace(/^(m|mobile|touch)\./, "") // Remove common mobile subdomains
+  const querylessURL = `${url.scheme.js}://${desktopHost}${url.path.js}`
+  const queryItems = url.queryItems.js
+
+  // Return early if no query items
+  if (queryItems === undefined) return querylessURL
+
+  // Build object with only allowed queries
+  const keptQueries = queryItems.reduce((all, current) =&gt; {
+    if (!allowedQueries.includes(current.name.js)) return all
+    all[current.name.js] = current.value.js
+    return all
+  }, {})
+
+  // Return early if no allowed queries remain
+  if (Object.keys(keptQueries).length === 0) return querylessURL
+
+  // Reconstruct URL with allowed queries
+  const joinedQueries = Object.entries(keptQueries).map(item =&gt; item.join("=")).join("&amp;")
+  return `${querylessURL}?${joinedQueries}`
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -155,9 +322,60 @@
 				<key>runningsubtext</key>
 				<string>Grabbing URL from clipboard…</string>
 				<key>script</key>
-				<string>require "#{Dir.pwd}/linkclean_functions.rb"
+				<string>function runCommand(...arguments) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
 
-display_options</string>
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut
+}
+
+const browserRaw = runCommand($("~/Library/Application Support/Alfred/Automation/Tasks/com.alfredapp.automation.core/safari/.common/tabs-current").stringByExpandingTildeInPath.js,
+  "frontmost_browser", "0", "json")
+
+const clipboardRaw = runCommand("/usr/bin/sqlite3",
+  "-newline", "",
+  $("~/Library/Application Support/Alfred/Databases/clipboard.alfdb").stringByExpandingTildeInPath.js,
+  "SELECT item FROM (SELECT item, MAX(ts) FROM clipboard WHERE dataType = 0 AND item LIKE \"http%\")")
+
+let scriptFilterItems = []
+
+if (browserRaw.length &gt; 0) {
+  const browserParsed = JSON.parse(JSON.parse(browserRaw)["alfredworkflow"]["arg"])
+
+  if (browserParsed.url) scriptFilterItems.push({
+    title: browserParsed.title,
+    subtitle: browserParsed.url,
+    icon: { path: "images/browser.png" },
+    arg: browserParsed.url
+  })
+}
+
+if (clipboardRaw.length &gt; 0) {
+  scriptFilterItems.push({
+    title: "Clipboard URL",
+    subtitle: clipboardRaw,
+    icon: { path: "images/clipboard.png" },
+    arg: clipboardRaw
+  })
+}
+
+if (scriptFilterItems.length === 0) {
+  JSON.stringify({ items: [{
+    title: "No URL found",
+    subtitle: "Did not find a URL in the clipboard or a supported browser",
+    valid: false
+  }]})
+} else {
+  JSON.stringify({ items: scriptFilterItems })
+}</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -165,11 +383,11 @@ display_options</string>
 				<key>skipuniversalaction</key>
 				<true/>
 				<key>subtext</key>
-				<string>Removes extraneous information from URLs</string>
+				<string>{const:alfred_workflow_description}</string>
 				<key>title</key>
 				<string>{const:alfred_workflow_name}</string>
 				<key>type</key>
-				<integer>2</integer>
+				<integer>7</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -183,27 +401,47 @@ display_options</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:follow_redirects}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Follow</string>
+						<key>uid</key>
+						<string>34C8B5B6-58B6-42FD-A4BF-B2E9B20BC79F</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Unchanged</string>
+				<key>hideelse</key>
 				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/linkclean_functions.rb"
-
-print clean_url(follow_redirects(ARGV[0]))</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</string>
+			<string>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>8EBF5D81-C4B2-42E5-BB74-D90295875326</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -275,6 +513,27 @@ print clean_url(follow_redirects(ARGV[0]))</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>No URL found in clipboard</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>18564F22-5EF1-4504-A20F-AC762151C0D1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>focusedappvariable</key>
 				<false/>
 				<key>focusedappvariablename</key>
@@ -295,15 +554,13 @@ print clean_url(follow_redirects(ARGV[0]))</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>require "#{Dir.pwd}/linkclean_functions.rb"
-
-print(clipboard_url)</string>
+				<string>sqlite3 "${HOME}/Library/Application Support/Alfred/Databases/clipboard.alfdb" 'SELECT item FROM (SELECT item, MAX(ts) FROM clipboard WHERE dataType = 0 AND item LIKE "http%");'</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>2</integer>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -312,84 +569,173 @@ print(clipboard_url)</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>URL</string>
+						<key>uid</key>
+						<string>0DC1065F-0C90-4D75-A561-27BC5E3ED415</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Empty</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>C1A77E08-B706-40AD-B8C8-C39100CF0534</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>1FA329F6-6619-47AA-8816-D3859DA5DA49</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Usage
 
-Remove [UTM parameters](https://en.wikipedia.org/wiki/UTM_parameters), mobile subdomains, and other clutter from URLs via the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/).
+Remove tracking parameters, mobile subdomains, and other clutter from URLs via the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/). The result is pasted to the frontmost app.
 
 ![Universal Action to clean link](images/about/ua.png)
 
-Alternatively, configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to clean a selected URL or use the `lc` keyword to declutter the last copied URL.
+Alternatively, clean either the last copied URL or the one in the frontmost browser tab via the `lc` keyword.
 
 ![Keyword to clean link](images/about/lc.png)
 
-Redirects are followed before cleaning and the result is pasted to the frontmost app.</string>
+Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to clean a selected URL.</string>
 	<key>uidata</key>
 	<dict>
+		<key>18564F22-5EF1-4504-A20F-AC762151C0D1</key>
+		<dict>
+			<key>xpos</key>
+			<real>590</real>
+			<key>ypos</key>
+			<real>725</real>
+		</dict>
+		<key>1FA329F6-6619-47AA-8816-D3859DA5DA49</key>
+		<dict>
+			<key>xpos</key>
+			<real>395</real>
+			<key>ypos</key>
+			<real>755</real>
+		</dict>
 		<key>390C73DF-C34D-45A0-B7C5-C0B74C1F9FBA</key>
 		<dict>
 			<key>xpos</key>
-			<real>40</real>
+			<real>90</real>
 			<key>ypos</key>
-			<real>190</real>
+			<real>320</real>
+		</dict>
+		<key>3C19AC84-D8A4-4CFA-9A20-3D565AE9FEC6</key>
+		<dict>
+			<key>xpos</key>
+			<real>610</real>
+			<key>ypos</key>
+			<real>180</real>
 		</dict>
 		<key>630129C2-A7B6-480C-B4F4-7088EAEF71B2</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>1090</real>
 			<key>ypos</key>
-			<real>30</real>
+			<real>160</real>
 		</dict>
 		<key>87BE9FDE-D40E-46A8-B0CF-10D7D63F9352</key>
 		<dict>
 			<key>note</key>
 			<string>Clean URL</string>
 			<key>xpos</key>
-			<real>290</real>
+			<real>890</real>
 			<key>ypos</key>
-			<real>30</real>
+			<real>160</real>
+		</dict>
+		<key>8EBF5D81-C4B2-42E5-BB74-D90295875326</key>
+		<dict>
+			<key>xpos</key>
+			<real>1030</real>
+			<key>ypos</key>
+			<real>190</real>
 		</dict>
 		<key>94E56B10-92C1-4A64-8D2F-E2D22A0D2AAC</key>
 		<dict>
 			<key>xpos</key>
-			<real>40</real>
+			<real>90</real>
 			<key>ypos</key>
-			<real>465</real>
+			<real>595</real>
+		</dict>
+		<key>9ADDD7CC-D56C-42E2-9872-29D9B64A0263</key>
+		<dict>
+			<key>note</key>
+			<string>Follow redirects</string>
+			<key>xpos</key>
+			<real>730</real>
+			<key>ypos</key>
+			<real>65</real>
 		</dict>
 		<key>B7D6699F-FC18-4DB5-A6ED-EE17A07868AB</key>
 		<dict>
 			<key>xpos</key>
-			<real>40</real>
+			<real>90</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>725</real>
+		</dict>
+		<key>C1A77E08-B706-40AD-B8C8-C39100CF0534</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>745</real>
 		</dict>
 		<key>CB0DF403-7E48-47D5-9141-C774A2C4950C</key>
 		<dict>
 			<key>note</key>
 			<string>From selection</string>
 			<key>xpos</key>
-			<real>40</real>
+			<real>90</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>445</real>
 		</dict>
 		<key>E51153A7-6839-42AB-A890-9BF850973E82</key>
 		<dict>
 			<key>note</key>
 			<string>Grab URL from clipboard</string>
 			<key>xpos</key>
-			<real>290</real>
+			<real>245</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>725</real>
 		</dict>
 		<key>FFC25DDE-7F2E-4A61-A2D0-0B4549044CAA</key>
 		<dict>
 			<key>note</key>
 			<string>From argument or clipboard</string>
 			<key>xpos</key>
-			<real>40</real>
+			<real>90</real>
 			<key>ypos</key>
-			<real>30</real>
+			<real>160</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -414,6 +760,25 @@ Redirects are followed before cleaning and the result is pasted to the frontmost
 			<string>textfield</string>
 			<key>variable</key>
 			<string>clean_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Follow URL to final destination before cleaning</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Follow Redirects</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>follow_redirects</string>
 		</dict>
 	</array>
 	<key>version</key>
