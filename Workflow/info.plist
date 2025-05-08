@@ -228,14 +228,13 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>const allowedQueries = [
-  "q", // Search engines and internal website searches
-  "k", // Amazon searches
-  "v", // Youtube video IDs
-  "list", // Youtube playlist IDs
-  "index", // Youtube playlist items
-  "language", // Apple documentation
-]
+				<string>const allowedQueries = {
+  ".+": ["q"], // Search engines and internal website searches
+  "amazon\\.[a-z]+": ["k"], // Amazon searches, with different TLDs
+  "youtube\\.com": ["v", "list", "index"], // YouTube
+  "youtu\\.be": ["v", "list", "index"], // YouTube short URLs
+  "developer\\.apple\\.com": ["language"] // Apple documentation
+}
 
 function run(argv) {
   // Parse URL
@@ -247,9 +246,16 @@ function run(argv) {
   // Return early if no query items
   if (queryItems === undefined) return querylessURL
 
+  // Build short list of queries which apply to this domain
+  const domainAllowedQueries = Object.keys(allowedQueries).flatMap(keyRegex =&gt; {
+    const regex = new RegExp(`^(?:www\\.)?${keyRegex}$`) // Add optional "www." to domain match and anchor it to beginning and end
+    if (!regex.test(desktopHost)) return []
+    return allowedQueries[keyRegex]
+  }, [])
+
   // Build object with only allowed queries
   const keptQueries = queryItems.reduce((all, current) =&gt; {
-    if (!allowedQueries.includes(current.name.js)) return all
+    if (!domainAllowedQueries.includes(current.name.js)) return all
     all[current.name.js] = current.value.js
     return all
   }, {})
