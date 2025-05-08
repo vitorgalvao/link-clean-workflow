@@ -731,7 +731,7 @@ Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/
 		<key>FFC25DDE-7F2E-4A61-A2D0-0B4549044CAA</key>
 		<dict>
 			<key>note</key>
-			<string>From argument or clipboard</string>
+			<string>From browser or clipboard</string>
 			<key>xpos</key>
 			<real>90</real>
 			<key>ypos</key>
