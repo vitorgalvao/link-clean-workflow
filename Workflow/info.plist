@@ -231,8 +231,8 @@
 				<string>const allowedQueries = {
   ".+": ["q"], // Search engines and internal website searches
   "amazon\\.[a-z]+": ["k"], // Amazon searches, with different TLDs
-  "youtube\\.com": ["v", "list", "index"], // YouTube
-  "youtu\\.be": ["v", "list", "index"], // YouTube short URLs
+  "youtube\\.com": ["v", "t", "list", "index"], // YouTube
+  "youtu\\.be": ["v", "t", "list", "index"], // YouTube short URLs
   "developer\\.apple\\.com": ["language"] // Apple documentation
 }
 
